@@ -1,79 +1,352 @@
----
-layout: default
----
-
-
-
-<!-- One -->
-    <section id="one">
-        <div class="container">
-            <header class="major" style="margin-bottom: -40px">
-                <h2>Miran Mirza</h2>
-            </header>
-            <p>I was born. When I was 4 I got my first computer. This eventually led to a Computer Science degree and a long relationship with writing code. It's still what I am doing today.</p>
-            <h4>Latest Tweets</h4>
-            <a class="twitter-timeline" href="https://twitter.com/miranmirza"
-            data-widget-id="689448799362617346" data-chrome="nofooter noborders" height="112px">Latest Tweets by @MiranMirza</a>
-            <script>!function(d,s,id){
-              var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
-              if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
-              fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-            </script>
-        </div>
-    </section>
-
-<!-- Two -->
-    <section id="two">
-        <div class="container">
-            <h3>Things I Enjoy</h3>
-            <p>These are some of the things I enjoy in life, by no means a comprehensive list but think of it as a preview of my life?</p>
-            <ul class="feature-icons">
-                <li class="fa-code">Writing code</li>
-                <li class="fa-bank">Ancient History</li>
-                <li class="fa-book">Reading books</li>
-                <li class="fa-coffee">Drinking tea</li>
-                <li class="fa-plane">Travelling to all the places</li>
-                <li class="fa-cutlery">Pizza</li>
-            </ul>
-        </div>
-    </section>
-
-<!-- Three -->
-    <section id="three">
-        <div class="container">
-            <h3>Intersting things I've done</h3>
-            <p>Here are some of the interesting things I've done throughout the years</p>
-            <div class="features">
-                <article>
-                    <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-                    <div class="inner">
-                        <h4>Presented a TED talk - 2011</h4>
-                        <p>On Novemeber 2011, I presented a TED talk at TEDxYouth@Amman. The talk was on the how programming helped further me further my creativity and foster the innovative mentality and how it can be used to
-                        further education. Watch it <a href="#">here</a> <i>(Audio: Arabic) No subtitles avaliable.</i></p>
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="UTF-8">
+	<title>Miran Mirza</title>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="description" content="The most powerful CV / RESUME template">
+	<meta name="keywords" content="Enter, your, keywords">
+	<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    <link rel="stylesheet" href="css/plugins.min.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/ionicons.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader-circle"></div>
+    </div>
+	<app id="app"></app>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4 huge-side left-side">
+                <div class="huge-content">
+                    <div class="crt-card-avatar">
+                        <img class="avatar avatar-195" src="images/avatar/avatar-195x195.jpg" srcset="images/avatar/avatar-390x390-2x.jpg 2x" width="195" height="195" alt="">
                     </div>
-                </article>
-                <article>
-                    <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-                    <div class="inner">
-                        <h4>Published a Paper - 2015</h4>
-                        <p>I presented a paper at the PROMOTO'15 workshop (part of SPLASH 2015) on "Collaborative Annotations for Large Touchscreen Web Applications". The paper is published in the ACM Digital library and you can read it <a href="#">here</a></p>
+                    <h1>Miran Mirza</h1>
+                    <h2>Full Stack Developer</h2>
+                    <a target="_blank" href="#" class="btn btn-download">Download Resume</a>
+
+                    <ul class="social-icons">
+                        <li>
+                            <a href="https://www.linkedin.com/in/miranmirza/" class="social-icon">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/miranmirza" class="social-icon">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/miranmirza/" class="social-icon">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sidebar__menu">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="col-sm-8 huge-side right-side">
+                <section class="content about">
+                    <div class="block-content">
+                        <h3 id="about" class="title">About Me</h3>
+                        <h3 class="subtitle">I'm a <b>Full Stack Developer</b> with a front-end focus from Toronto, ON.</h3>
+                        <p>Born in Montreal, raised in Jordan and, until recently, I called Ottawa home. I am a Toronto based Full Stack Developer with a passion for front-end development and UX. I gave a TED talk earlier while I was developing my programming skills, and want to continue learning and growing as a developer.</p>
+                        <!-- <div class="info-list row">
+                            <p class="col-sm-6"><strong>Name: </strong> Miran Mirza</p>
+                            <p class="col-sm-6"><strong>Email: </strong> myemail@gmail.com</p>
+                            <p class="col-sm-6"><strong>Phone: </strong> + 123 456 789 234</p>
+                            <p class="col-sm-12"><strong>Address: </strong> 1234 House, Large Street, Small Road, Nice City, Poor County.</p>
+                        </div> -->
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 service">
+                                <div class='embed-container'>
+                                    <iframe src='https://www.youtube.com/embed/8O0JH7Z8aZo' frameborder='0' allowfullscreen></iframe>
+                                </div>
+                                <h4>TED Speaker</h4>
+                                <p>I presented a TED talk at TEDxYouth@Amman on the how programming can be used to further education. <BR>(Audio: Arabic) No subtitles avaliable.</p>
+                            </div>
+                            <div class="col-md-4 col-sm-6 service">
+                                <div>
+                                    <img class="img-fluid" src="images/promoto.jpg" alt="Eye" />
+                                </div>
+                                <h4>Published Academic</h4>
+                                <p>I presented a paper at the PROMOTO'15 workshop (part of SPLASH 2015) on <a href="https://dl.acm.org/citation.cfm?id=2824827">"Collaborative Annotations for Large Touchscreen Web Applications"</a></p>
+                            </div>
+                            <div class="col-md-4 col-sm-6 service">
+                                <div>
+                                    <img src="images/greek.jpg" class="img-fluid" alt="Chat" />
+                                </div>
+                                <h4>Minor in Classics</h4>
+                                <p>My interest in history and learning about my background (Mesopotamia) made me take a few courses in Classics and this quickly turned into a minor.</p>
+                            </div>
+                        </div>
+                        <p class="signature">Miran Mirza</p>
                     </div>
-                </article>
-                <article>
-                    <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-                    <div class="inner">
-                        <h4>Minor in Classics</h4>
-                        <p>My interest in history and learning about my background (Mesopotamia) made me take a few courses in Classics and this quickly turned into a minor.</p>
+                    <div class="block-content">
+                        <h3 id="skills" class="title">Skills</h3>
+                        <label class="progress-bar-label">JavaScript</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="100%" aria-valuemin="0" aria-valuemax="100">
+
+                            </div>
+                        </div>
+                        <label class="progress-bar-label">NodeJS</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="100%" aria-valuemin="0" aria-valuemax="100">
+
+                            </div>
+                        </div>
+                        <label class="progress-bar-label">HTML/CSS/SASS</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="100%" aria-valuemin="0" aria-valuemax="100">
+
+                            </div>
+                        </div>
+                        <label class="progress-bar-label">Python</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80%" aria-valuemin="0" aria-valuemax="100">
+                        
+                            </div>
+                        </div>
+                        <label class="progress-bar-label">Angular</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80%" aria-valuemin="0" aria-valuemax="100">
+
+                            </div>
+                        </div>
+                        <label class="progress-bar-label">React</label>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60%" aria-valuemin="0" aria-valuemax="100">
+
+                            </div>
+                        </div>
                     </div>
-                </article>
-                <article>
-                    <a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-                    <div class="inner">
-                        <h4>Life outside School</h4>
-                        <p>Throughout my academic career, I have taken time to persue projects outside of academia, I've attended conferences like SPLASH and CUSEC. I've done hackathons such as Random Hacks of Kindness.
-                          I have worked on my own projects: a wine journal application, contributing to a BBCode plugin for NodeBB, and much more.</p>
+                    <div class="block-content">
+                        <h3 id="experience" class="title">Work Experience</h3>
+                        <div class="timeline experience">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="exp-holder">
+                                        <div class="exp">
+                                            <div class="hgroup">
+                                                <h4><span>Intermediate Full Stack Developer</span> / Filament Creative</h4>
+                                                <h5 class="badge">March 2018 – <span class="current">Present</span></h5>
+                                            </div>
+                                            <p>
+                                            </p>
+                                        </div>
+
+                                        <div class="exp">
+                                            <div class="hgroup">
+                                                <h4><span>Software Developer</span> / Espial</h4>
+                                                <h5 class="badge">Nov 2016 - Oct 2017</h5>
+                                            </div>
+                                            <p>
+                                                <ul>
+                                                    <li>Developed various front-end and middleware components in JavaScript</li>
+                                                    <li>Worked on converting mockups into functioning products</li>
+                                                    <li>Used Amazon AWS and Alexa APIs to develop an Alexa Skill in JavaScript ES6 and NodeJS</li>
+                                                    <li>Participated in scrum sessions: stand-ups, planning and backlog refinement</li>
+                                                </ul>
+                                            </p>
+                                        </div>
+                                        <div class="exp">
+                                            <div class="hgroup">
+                                                <h4><span>Junior Web UI Developer</span> / Irdeto Canada</h4>
+                                                <h5 class="badge">Jan 2016 – Aug 2016</h5>
+                                            </div>
+                                            <p>
+                                                <ul>
+                                                    <li>Developed reusable web components using AngularJS directives from static mock ups provided</li>
+                                                    <li>Crafted the UI/UX for an online portal using AngularJS, JavaScript, CSS, and HTML</li>
+                                                    <li>Engineered a RESTful API using the MEAN stack to aggregate data into a central portal</li>
+                                                </ul>
+                                            </p>
+                                        </div>
+                                        <div class="exp">
+                                            <div class="hgroup">
+                                                <h4><span>UI Designer</span> / Carleton University</h4>
+                                                <h5 class="badge">May 2015 - Aug 2016</h5>
+                                            </div>
+                                            <p>
+                                                <ul>
+                                                    
+                                                    <li>Co-authored and published a paper in the <a href="https://dl.acm.org/citation.cfm?id=2824827">ACM Digital Library (part of PROMOTO 2015)</a></li>
+                                                    <li>Presented relating to the paper talk at PROMOTO 2015 as part of the workshop</li>
+                                                    <li>Developed various prototypes using JavaScript, CSS, HTML, and D3 front-end framework</li>
+                                                    <li>Re-wrote code base to support multi-touch input and gestures using JavaScript and Interact.js</li>
+                                                </ul>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </article>
+                    <div class="block-content">
+                        <h3 class="title">Education</h3>
+                        <div class="timeline education">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="exp-holder">
+                                        <div class="exp">
+                                            <div class="hgroup">
+                                                <h4>BCS Computer Science / <span>Carleton University</span></h4>
+                                                <h5>Sept 2012 - Jun 2016</h5>
+                                            </div>
+                                            <p>Honours BCS Computer Science - Greek and Roman Studies Minor.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-content">
+                        <h3 id="blog" class="title">Blog</h3>
+                        <div class="row">
+                            <div id="blog__content">
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <a href="https://medium.com/@miranmirza">View All</a>
+                            </div>
+                            
+
+                            <!-- <div class="col-md-4 col-sm-6 service">
+                                <div class="service-icon">
+                                    <img src="images/ic/responsive.svg" alt="Responsive" />
+                                </div>
+                                <h4>Fully Responsive</h4>
+                                <p>100% responsive and retina-ready design, beautiful design with an emphasis on readability.</p>
+                            </div>
+                            <div class="col-md-4 col-sm-6 service">
+                                <div class="service-icon">
+                                    <img src="images/ic/eye.svg" alt="Eye" />
+                                </div>
+                                <h4>Unique Design</h4>
+                                <p>Unique, creative design with a huge attention to details and carefully crafted elements and features.</p>
+                            </div>
+                            <div class="col-md-4 col-sm-6 service">
+                                <div class="service-icon">
+                                    <img src="images/ic/chat.svg" alt="Chat" />
+                                </div>
+                                <h4>Elite Support</h4>
+                                <p>Speedy support with average response times of less than 6 hours.</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!-- <div class="block-content">
+                        <h3 class="title">Clients</h3>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-xs-6 clients">
+                                <img src="images/clients/client.png" srcset="images/clients/client-2x.png 2x" alt="Client">
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 clients">
+                                <img src="images/clients/client.png" srcset="images/clients/client-2x.png 2x" alt="Client">
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 clients">
+                                <img src="images/clients/client.png" srcset="images/clients/client-2x.png 2x" alt="Client">
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 clients">
+                                <img src="images/clients/client.png" srcset="images/clients/client-2x.png 2x" alt="Client">
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 clients">
+                                <img src="images/clients/client.png" srcset="images/clients/client-2x.png 2x" alt="Client">
+                            </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 clients">
+                                <img src="images/clients/client.png" srcset="images/clients/client-2x.png 2x" alt="Client">
+                            </div>
+                        </div>
+                    </div> -->
+                </section>
+                <div class="content-blocks contact">
+                    <section class="content">
+                        <div class="block-content">
+                            <h3 id="contact" class="title">Get in touch</h3>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <form action="https://formspree.io/miranmirza@gmail.com" method="POST" id="contactForm" data-toggle="validator" class="contact-form shake">
+                                        <div class="form-group">
+                                            <input id="name" type="text" class="form-control" name="Name" autocomplete="off" required data-error="Please enter your name" placeholder="* Your Name">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <input id="email" type="email" class="form-control" name="email" autocomplete="off" required data-error="Please enter your email" placeholder="* Your Email">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea id="message" class="form-control textarea" rows="10" name="Message" required data-error="Please enter your message subject" placeholder="* Your Message"></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <button id="submit" type="submit" class="btn selected">Send Message</button>
+                                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <!-- <div class="col-md-5 offset-md-1">
+                                    <div class="contact-content">
+                                        <div class="contact-icon">
+                                            <i class="ion-ios-location-outline"></i>
+                                        </div>
+                                        <div class="contact-details">
+                                            <h5>Address</h5>
+                                            <p>123 Ap, Loop Street, Brooklyn NY</p>
+                                        </div>
+                                    </div>
+                                    <div class="contact-content">
+                                        <div class="contact-icon">
+                                            <i class="ion-ios-telephone-outline"></i>
+                                        </div>
+                                        <div class="contact-details">
+                                            <h5>Call Us</h5>
+                                            <p> <a href="tel:+12345678890">+123 - 45678890</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="contact-content">
+                                        <div class="contact-icon">
+                                            <i class="ion-ios-email-outline"></i>
+                                        </div>
+                                        <div class="contact-details">
+                                            <h5>Email</h5>
+                                            <p>myemail@gmail.com</p>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <div class="col-md-12">
+                                    <!--Google Map-->
+                                    <div id="map"></div>
+                                    <!--Google Map End-->
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+
+    <script src='js/jquery.min.js'></script>
+	<script src='js/react.min.js'></script>
+	<script src='js/react-dom.js'></script>
+	<script src='js/parallax.min.js'></script>
+	<script src='js/react-motion.js'></script>
+    <script src='js/isotope.pkgd.js'></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmsb2nGLuIl04bt7CWJozRMhThvGa3y1w"></script>
+    <script src="js/header.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
