@@ -1575,7 +1575,7 @@ h2.menu-item:after {
 @media (min-width:1280px) {
     .fixed {
         position: sticky;
-        top: 80px;
+        top: 20px;
     }
 }
 @media (max-width:1280px) {
