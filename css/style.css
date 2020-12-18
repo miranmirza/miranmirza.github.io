@@ -120,7 +120,9 @@ h3 {
     margin-bottom: 0;
     font-weight: 500;
 }
-
+h3 strong {
+    color: inherit;
+}
 h4 {
     font-size: 16px;
     line-height: 24px;
@@ -1476,6 +1478,63 @@ h2.menu-item:after {
     margin-top: 50px;
     width: 100%;
 }
+/*-------------------------------------------------------------------
+
+                        DARK MODE
+
+-------------------------------------------------------------------*/
+
+@media (prefers-color-scheme: dark) {
+    .huge-side.left-side {
+        background: #24292E;
+    }
+    .huge-side.right-side, .content-blocks.contact {
+        background: #383F45;
+    }
+    h1 {
+        color: #F6F7F9;
+    }
+    h2, .left-side .social-icons li a, .sidebar__menu {
+        color: #E5E7EA;
+    }
+    h3, h4 {
+        color: #CED2D6
+    }
+    .title {
+        border-color: #596066;
+    }
+    p, .progress-bar-label, ul li {
+        color: #F7F8F9;
+    }
+    .exp:after {
+        background: #E5E7EA;
+        border-color: #E5E7EA;
+    }
+    #contactForm .form-control {
+        border-color: #596066;
+        color: #CED2D6;
+    }
+    .link__viewall {
+        color: #CED2D6;
+    }
+    .progress {
+        background: #676E76;
+    }
+    .progress-bar {
+        background: radial-gradient(left top , circle cover , rgb(12, 180, 206) 9% , rgb(0, 108, 255) 48% , rgb(100, 66, 255) 91%);
+        background: -o-radial-gradient(left top , circle cover , rgb(12, 180, 206) 9% , rgb(0, 108, 255) 48% , rgb(100, 66, 255) 91%);
+        background: -ms-radial-gradient(left top , circle cover , rgb(12, 180, 206) 9% , rgb(0, 108, 255) 48% , rgb(100, 66, 255) 91%);
+        background: -moz-radial-gradient(left top , circle cover , rgb(12, 180, 206) 9% , rgb(0, 108, 255) 48% , rgb(100, 66, 255) 91%);
+        background: -webkit-radial-gradient(left top , circle cover , rgb(12, 180, 206) 9% , rgb(0, 108, 255) 48% , rgb(100, 66, 255) 91%);
+    }
+    .sidebar__menu a:focus, a:hover {
+        color: rgb(12, 180, 206);
+    }
+    .btn-download {
+        background: #383F45;
+    }
+}
+
 
 /*-------------------------------------------------------------------
 
